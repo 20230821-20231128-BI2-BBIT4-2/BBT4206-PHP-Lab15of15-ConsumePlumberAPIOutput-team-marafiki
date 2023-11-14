@@ -65,10 +65,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diabetes Prediction Form</title>
+    <title>Diabetes Form</title>
 </head>
 <body>
-    <h1>Diabetes Prediction Form</h1>
+    <h1>Diabetes Form</h1>
     <form method="post" action="">
         <!-- Add input fields for each parameter -->
         Pregnant: <input type="number" name="arg_pregnant" required><br>
@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         Mass: <input type="number" name="arg_mass" required><br>
         Pedigree: <input type="number" step="0.001" name="arg_pedigree" required><br>
         Age: <input type="number" name="arg_age" required><br>
-        <button type="submit">Predict Diabetes</button>
+        <button type="submit">Predict</button>
     </form>
 </body>
 </html>
